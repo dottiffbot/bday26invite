@@ -127,7 +127,7 @@
     const message = document.getElementById('message').value.trim();
     if (!name) return;
 
-    await fetch('https://teebdayinvite-production.up.railway.app/', {
+    await fetch('https://teebdayinvite-production.up.railway.app/entries', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ name, message })

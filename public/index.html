@@ -110,7 +110,7 @@
 <script>
   // Load entries when page opens
   async function loadEntries() {
-    const res = await fetch('http://localhost:3000/entries');
+    const res = await fetch('https://teebdayinvite-production.up.railway.app/entries');
     const entries = await res.json();
     const list = document.getElementById('entries-list');
     list.innerHTML = entries.map(e => `

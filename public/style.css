@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'radical';
+    src: url(./assets/xxAmour-fort.ttf);
+}
+
+body{
+    background-color: black;
+    color: palevioletred;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+font-weight: 600;
+font-style: normal;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.blu{
+     color: #BBFAE3;
+
+}
+
+a{
+    color: #BBFAE3;
+}
+
+.info-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.greeting{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.readable{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+h1{
+    font-family: 'radical';
+    font-size: 3em;
+}
+
+h2{
+    font-family: 'radical';
+}
+
+.fun-inputs{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5em;
+}
+
+.narrative{
+    width: 30vw;
+}
+
+.field{
+    width:25vw;
+
+}
+
+#message{
+width: 100%;
+height: 10vh;
+}
+
+button{
+    background-color: pink;
+    font-family: "adobe-caslon-pro", serif;
+    font-size: 1.5em;
+    border-radius: 10px;
+
+}
+
+button:hover{
+    background-color: deeppink;
+}
+
+label{
+    font-family: 'radical';
+}
+
+.entry-name{
+    font-family: "adobe-caslon-pro", serif;
+font-weight: 600;
+font-style: italic;
+}
+
+.entry-message{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 300;
+    color: #BBD2FA;
+
+}
+
+img{
+    width: 30vw;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+@media screen and (max-width: 600px) {
+ .narrative{
+    width: 80vw;
+ }
+
+ .field{
+    width: 80vw;
+ }
+
+ .fun-inputs{
+    width: 80vw;
+ }
+
+ h1{
+    font-size: 1.75em;
+ }
+
+ img{
+    width: 80vw;
+ }
+}

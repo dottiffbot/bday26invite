@@ -78,6 +78,8 @@ height: 10vh;
 button{
     background-color: pink;
     font-family: "adobe-caslon-pro", serif;
+    font-weight: 600;
+font-style: italic;
     font-size: 1.5em;
     border-radius: 10px;
 
